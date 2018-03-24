@@ -1,0 +1,223 @@
+*{
+	border : 0px;
+	margin : 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav#menu-principal a.active1{
+	background-color: rgba(81,81,81,.80)!important;
+}
+
+div.selec-index{
+	background-color: rgba(81,81,81,.50);
+} 
+
+div#bg-1index{
+	width              : 100%;
+	height             : 100vh;
+	background         : url(../img/bg-princ.png);
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : auto 100%;
+	-webkit-animation  : bg-princ 60s infinite alternate;
+	-moz-animation     : bg-princ 60s infinite alternate;
+	-o-animation       : bg-princ 60s infinite alternate;
+}
+
+canvas{
+	display       :block;
+	vertical-align:bottom;
+}
+
+div#particles-js, canvas{
+	width   : 100%;
+	min-height: 100%;
+	position: fixed;
+	background-color: #FFF;
+	z-index : -1;
+}
+
+div#bg-2-index{
+	width        : 80%;
+	max-width    : 1000px;
+	min-height   : 100px;
+	margin       : auto;
+	background   : none;
+	border-bottom: 1px solid #DDD;
+}
+
+section#cont-txt{
+	width : 100%;
+	min-height: 100px;
+	margin: auto;
+}
+
+div#space{
+	width : 100%;
+	height: 50px;
+	background: none;
+}
+
+div#img-perfil{
+	width        : 200px;
+	height       : 200px;
+	margin       : auto;
+	border-radius: 100px;
+	background   : none;
+	background-image: url(../img/Perfil-alex-gh.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120% 120%;
+}
+
+article#contxt{
+	width : 75%;
+	min-height: 100px;
+	margin: auto;
+}
+
+h1.title-txt-index, p#txt{
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	font-size  : 25px;
+	text-align : center;
+	color      : #333;
+}
+
+p#txt{
+	font-size  : 17px!important;
+}
+
+/*---------------------- Carrucel ----------------------*/
+
+@-webkit-keyframes bg-princ{
+	0% 		{background: url(../img/bg-princ.png);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	7% 		{background: url(../img/bg-princ.png);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	10% 	{background: url(../img/bg-principal-01.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	17% 	{background: url(../img/bg-principal-01.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	20% 	{background: url(../img/bg-principal-02.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	27% 	{background: url(../img/bg-principal-02.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	30%		{background: url(../img/bg-principal-03.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	37%		{background: url(../img/bg-principal-03.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	40%		{background: url(../img/bg-principal-04.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	47%		{background: url(../img/bg-principal-04.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	50%		{background: url(../img/bg-principal-05.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	57%		{background: url(../img/bg-principal-05.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	60%		{background: url(../img/bg-principal-06.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	67%		{background: url(../img/bg-principal-06.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	70%		{background: url(../img/bg-principal-07.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	77%		{background: url(../img/bg-principal-07.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	80%		{background: url(../img/bg-principal-08.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	87%		{background: url(../img/bg-principal-08.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	70%		{background: url(../img/bg-principal-09.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	77%		{background: url(../img/bg-principal-09.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+
+	100%	{background: url(../img/bg-principal-10.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+	107%	{background: url(../img/bg-principal-10.jpg);
+			background-position: center;
+			background-size: auto 100%;
+			background-repeat  : no-repeat;}
+}
+
+/*------------------ Responsive --------------------*/
+
+@media only screen and (max-width: 600px){
+
+	div#bg-2-index{
+	width: 100%;
+	}
+
+	article#contxt{
+	width : 90%;
+	}
+}
+
+@media only screen and (max-width: 300px){
+
+	div#img-perfil{
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+
+	div#img-perfil{
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+	}
+}

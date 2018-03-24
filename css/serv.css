@@ -1,0 +1,409 @@
+*{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.aviso-pagina-peq, .aviso{
+	display: none;
+}
+
+nav#menu-principal a.active3{
+	background-color: rgba(81,81,81,.80)!important;
+}
+
+/*------------- iconos -------------*/
+
+.clase-iconos-serv-130-333{
+	color: #333;
+	margin: 0;
+	line-height: 0;
+	text-align: center;
+	font-size: 130px;
+}
+
+.clase-iconos-serv-100-colrs{
+	margin: 0;
+	line-height: 0;
+	text-align: center;
+	font-size: 100px;
+}
+
+.icon-color-4{
+	color: #22B073;
+}
+
+.icon-color-5{
+	color: #0071B7;
+}
+
+.icon-color-6{
+	color: #E81C24;
+}
+
+.icon-color-7{
+	color: #EC5A24;
+}
+
+.icon-color-8{
+	color: #00A498;
+}
+
+.icon-color-9{
+	color: #8C58BC;
+}
+
+.icon-color-10{
+	color: #951720;
+}
+
+.icon-color-11{
+	color: #181D51;
+}
+
+.icon-color-12{
+	color: #2EA23C;
+}
+
+.icon-color-13{
+	color: #BC272D;
+}
+
+.icon-color-14{
+	color: #39B54A;
+}
+
+.icon-color-15{
+	color: #0071BC;
+}
+
+/*------------- banner -------------*/
+
+header.bg-1serv{
+	margin: auto;
+	width: 100%;
+	height: 50vh;
+	min-height: 200px;
+	background-image: url(../img/bg-prin-servic.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+section.center-servc{
+	margin: auto;
+	width: 80%;
+	max-width: 1000px;
+	height: calc(50vh - 60px);
+	min-height: 150px;
+
+	/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	justify-content: center;
+	align-items    : center;
+}
+
+h1.title-servi{
+	font-size  : 70px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	color      : #FFF;
+}
+
+/*------------- menu -------------*/
+
+div.bg2-menu-serv{
+	margin: auto;
+	width: 80%;
+	max-width: 1000px;
+	min-height: 300px;
+	height: 50vh;
+
+	/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	/*justify-content: center;
+	align-items    : center;*/
+}
+
+article.menu-serv, article.menu-serv-c{
+	width: 33%;
+	height: 100%;
+	min-height: 230px;
+
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items    : center;
+}
+
+article.menu-serv-c{
+	width: 34%!important;
+}
+
+h1.title-menu-serv{
+	margin-top: 15px;
+	font-size  : 25px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #444;
+}
+
+/*------------- pag web -------------*/
+
+div.bg-pagw{
+	width: 100%;
+}
+
+section.bg-title-pagw{
+	width: 100%;
+	height: 150px;
+	background-image: url(../img/title-pagw.jpg);
+	background-position: center;
+	background-size: 100% auto;
+}
+
+h1.title-pagw{
+	padding-top: 28px;
+	font-size  : 70px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #FFF;
+}
+
+section.center-pagweb-serv{
+	width: 80%;
+	max-width: 1000px;
+	height: calc(100vh - 150px);
+	min-height: 350px;
+	margin: auto;
+	border-bottom: 1px solid #FFF;
+
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+/*-----------*/
+
+article.box{
+	width: 50%;
+	min-width: 365px;
+
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items    : center;
+}
+
+h2.sub-title{
+	text-decoration: none;
+	font-size  : 35px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #333;
+}
+
+p.txt-conteni{
+	padding: 0px 20px;
+	text-decoration: none;
+	font-size  : 15px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #333;
+}
+
+/*------------- pag web 2 -------------*/
+
+section.center-pagweb-serv2{
+	width: 80%;
+	max-width: 1000px;
+	/*height: 100vh;*/
+	margin: auto;
+	min-height: 600px;
+
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+article.box2{
+	width: 50%;
+}
+
+/*------------- Man Comp -------------*/
+
+div.bg-mant-pc{
+	width: 100%;
+	min-height: 500px;
+}
+
+section.bg-title-mant{
+	width: 100%;
+	height: 200px;
+	background-image: url(../img/bg-title-mant.jpg);
+	background-position: center;
+	background-size: 100% auto;
+}
+
+h1.title-mant{
+	padding-top: 10px;
+	font-size  : 70px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #FFF;
+}
+
+section.center-sub-title-mat{
+	width: 80%;
+	max-width: 1000px;
+	height: 100px;
+	margin: auto;
+}
+
+h2.sub-title-mat{
+	padding: 25px 30px 10px 30px;
+	font-size  : 25px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #000;
+}
+
+section.center-mant-serv{
+	width: 80%;
+	max-width: 1000px;
+	height: calc(100vh - 300px);
+	margin: auto;
+	min-height: 300px;
+
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+article.box-mant, article.box-mant2{
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items    : center;
+}
+
+article.box-mant{
+	width: 33%;
+}
+
+article.box-mant2{
+	width: 34%;
+}
+
+p.txt-conteni2{
+	padding: 0px 20px;
+	text-decoration: none;
+	font-size  : 20px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #333;
+}
+
+
+/*------------- Disñ Grf -------------*/
+
+div.bg-diseno{
+	width: 100%;
+	min-height: 500px;
+}
+
+section.bg-title-diseno{
+	width: 100%;
+	height: 150px;
+	background-image: url(../img/bg-title-diseño.jpg);
+	background-position: center;
+	background-size: 100% auto;
+}
+
+h1.title-diseno{
+	padding-top: 28px;
+	font-size  : 70px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #FFF;
+}
+
+section.center-title-diseno{
+	width: 80%;
+	max-width: 1000px;
+	margin: auto;
+	height: 100px;
+}
+
+h2.sub-title-diseno{
+	padding: 50px 30px 0px 30px;
+	font-size  : 25px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #333;
+}
+
+section.center-diseno-serv2{
+	width: 80%;
+	max-width: 1000px;
+	height: calc(100vh - 250px);
+	margin: auto;
+	min-height: 300px;
+	border-bottom: 1px solid #bbb;
+
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+h2.sub-title-diseno2{
+	text-decoration: none;
+	padding: 0px 20px;
+	font-size  : 25px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #333;
+}
+
+p.txt-conteni3{
+	padding: 0px 20px;
+	text-decoration: none;
+	font-size  : 18px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color      : #333;
+}

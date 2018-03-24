@@ -1,0 +1,368 @@
+/*------------ Responsive Curri--------------*/
+
+@media only screen and (max-width:800px){
+
+	section.bg-txt2{
+		width: 95%;
+	}
+
+	p{
+		margin: 0px!important;
+	}
+}
+
+@media only screen and (max-width:700px){
+	
+	section.cont-menu-curri{
+		width : 100%;
+		height: 300px;
+	}
+	
+	h2.title-menu-curri{
+		font-size: 15px;
+	}
+	
+	p.txt-menu-curri{
+		font-size: 10px;
+	}
+
+	article.cont-3{
+		width: 100%;
+	}
+
+	section.box-title-habili{
+		width: 100%;
+	}
+
+	section.bg-1-habili{
+		width: 90%;
+	}
+
+	div.bg-2-exp-lab{
+		width: 95%;
+	}
+
+	p.txt-expe{
+		padding: 0;
+	}
+	
+	section.bg-txt2{
+		height: 350px;
+
+		flex-flow: column;
+		justify-content: center;
+		align-items    : center;
+	}
+
+	article.expe-smll{
+		width: 80%;
+	}
+
+	.txt-smll{
+		padding-top: 10px!important;
+	}
+
+	.ico1{
+		background-size: auto 80%!important;
+	}
+
+	.ico2{
+		background-size: auto 150%!important;
+	}
+
+	.ico3{
+		background-size: auto 100%!important;
+	}
+
+	.ico4{
+		background-size: auto 130%!important;
+	}
+
+	article.expe-big{
+		width: 95%;
+	}
+
+	section.bg-3d-hobbies{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 630px){
+	
+	h1.titlie-curri a{
+		font-size: 50px;
+	}
+
+	h2.titlie2-curri a{
+		font-size  : 15px;
+	}
+
+	h2.title-estud-curri {
+    	font-size: 60px;
+	}
+
+	div.bg2-estu {
+    	width: 100%;
+	}
+
+	div.bg-2-habili ,div.bg-3-habili, div.bg-4-habili{
+		width: 95%;
+	}
+
+	h3.txt-expe-curri{
+		font-size: 18px;
+	}
+
+	p.txt-hobbie{
+		padding: 0 10px;
+	}
+
+	h2.title-hobbies-curri{
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	p.txt-hobbie{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	
+	div.contenedor-banner-curri-2{
+		width : 100%;
+		height: 100vh;
+	}
+
+	h1.titlie-curri a{
+		font-size: 50px;
+		margin-top: -120px;
+	}
+
+	section.cont-menu-curri{
+		width : 80%;
+		flex-flow: row wrap;
+		justify-content: center;
+		aling-items: center;
+	}
+
+	article.menu-items-curri{
+		width: 150px;
+	}
+
+	a div.ico-menu-habili{
+		width: 60px;
+		height: 60px;
+	}
+
+	h2.title-estud-curri {
+	    padding: 0px 0px;
+	    font-size: 50px;
+	}
+
+	h1.title-habili{
+		font-size: 50px;
+	}
+
+	a h3.txt-menu-habili{
+		font-size: 18px;
+	}
+
+	section.bg-1-habili{
+    	flex-flow: row wrap;
+	}
+
+	h2.title-hobbies-curri{
+		font-size: 55px;
+	}
+
+	div.bg-title-hobbies-curri{
+		background-size: auto 100%;
+	}
+}
+
+@media only screen and (max-width: 440px){
+	
+	h1.titlie-curri a{
+		font-size: 40px;
+	}
+
+	h2.titlie2-curri a{
+		font-size  : 10px;
+	}
+	
+	h2.title-expe-curri{
+		font-size: 45px;
+	}
+
+	div.ico-hobbie{
+		width: 70px;
+    	height: 70px;
+	}
+
+	.bici-ico, 
+	.cubo-ico, 
+	.games-ico, 
+	.code-ico, 
+	.cine-ico{
+		background-size: 100% auto;
+	}
+
+	.music-ico{
+		background-size: auto 100%;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	
+	div.contenedor-banner-curri-2{
+		width : 100%;
+		height: 100vh;
+	}
+
+	section.cont-menu-curri{
+		width : 100%;
+		flex-flow: row wrap;
+		justify-content: center;
+		aling-items: center;
+	}
+
+	article.menu-items-curri{
+		width: 150px;
+	}
+
+	h1.titlie-curri{
+		font-size  : 30px;
+	}
+
+	h2.cont-estid-title {
+    	font-size: 18px;
+	}
+
+	p.cont-estid-txt {
+	    font-size: 12px;
+	}
+
+	h2.cont-estid-titleimg {
+	    background-size: 70% auto;
+	}
+
+	h1.title-in-graf{
+		padding: 0;
+	}
+
+	.txt-smll{
+		font-size: 15px!important;
+	}
+}
+
+@media only screen and (max-width: 350px){
+
+	h1.titlie-curri a{
+		font-size: 28px;
+	}
+
+	h2.titlie2-curri a{
+		font-size  : 9px;
+	}
+
+	h2.title-estud-curri{
+		font-size: 30px;
+	}
+
+	section.bg-1-habili{
+		height: 250px;
+    	flex-flow: column;
+	}
+
+	article.box-menu-habili{
+		height: 120px;
+	}
+
+	div.bg-title-habili-curri{
+		min-height: 100vh;
+	}
+
+	div.bg-title-habili-curri{
+		height: 550px;
+	}
+
+	.ico2{
+		background-size: auto 120%!important;
+	}
+
+	.ico4{
+		background-size: auto 110%!important;
+	}
+
+	h2.title-hobbies-curri{
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 330px){
+
+	div.contenedor-banner-curri{
+		width           : 100%;
+		height          : 100vh;
+	}
+
+	h1.titlie-curri{
+		margin-top: 0px
+	}
+
+	h1.title-habili{
+		font-size: 40px;
+	}
+
+	h3.txt-expe-curri{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 306px){
+
+	div.contenedor-banner-curri-2{
+		width : 100%;
+		height: 200vh;
+	}
+
+	article.menu-items-curri{
+		width: 150px;
+	}
+
+	h2.title-expe-curri{
+		font-size: 38px;
+	}
+}
+
+@media only screen and (max-width: 250px){
+
+	div.aviso, h1.aviso-pagina-peq{
+		display: inline;
+	}
+
+	div.aviso{
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		position: fixed;
+		z-index: 5;
+
+		/*Flex*/
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+
+		justify-content: center;
+		align-items    : center;
+	}
+
+	h1.aviso-pagina-peq{	
+		font-size  : 18px;
+		font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+		text-align: center;
+		color      : #FFF;
+	}
+}

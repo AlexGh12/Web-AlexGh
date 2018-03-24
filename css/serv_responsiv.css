@@ -1,0 +1,166 @@
+/*------------- Responsive -------------*/
+
+@media only screen and (max-width: 920px){
+	section.center-pagweb-serv, section.center-pagweb-serv2{
+		width: 100%
+	}
+}
+
+@media only screen and (max-width: 850px){
+	div.bg2-menu-serv{
+	width: 100%;
+	}
+
+	section.center-sub-title-mat {
+    width: 100%;
+	}
+
+	section.center-mant-serv {
+    width: 100%;
+	}
+
+	section.center-title-diseno {
+    width: 100%;
+	}
+
+	section.center-diseno-serv2 {
+    width: 100%;
+	}
+}
+
+@media only screen and (max-width: 740px){
+	section.center-pagweb-serv{
+		height: 750px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	h2.sub-title-mat{
+		margin: 0;
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 560px){
+	h1.title-servi {
+    	font-size: 45px;
+	}
+
+	h2.sub-title-mat{
+		margin: 0;
+		font-size: 25px;
+	}
+	
+	section.center-sub-title-mat {
+    	height: 150px;
+	}
+
+	section.center-mant-serv {
+    height: 700px;
+    flex-flow: column;
+    align-items: center;
+	}
+
+	article.box-mant, article.box-mant2 {
+    width: 80%;
+	}
+
+	h1.title-mant {
+    font-size: 50px;
+	}
+
+	section.center-diseno-serv2{
+		height: 800px;
+	}
+
+	h2.sub-title-diseno{
+	    padding: 30px 5px 0px 4px;
+	}
+
+	h1.title-diseno{
+		padding-top: 45px;
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	h1.title-pagw{
+		padding-top: 40px;
+		font-size: 50px;
+	}
+	
+	div.bg2-menu-serv{
+		height: 900px;
+	    flex-flow: column;
+    	align-items: center;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	section.center-diseno-serv2{
+		height: 850px;
+	}
+
+	h2.sub-title-diseno{
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 420px){
+	section.center-sub-title-mat {
+    	height: 180px;
+	}
+
+	h2.sub-title-mat {
+    font-size: 18px;
+	}
+
+	h1.title-mant {
+    font-size: 30px;
+	}
+
+	h1.title-diseno{
+		padding-top: 50px;
+		font-size: 40px;
+
+	}
+}
+
+@media only screen and (max-width: 370px){
+	h1.title-servi {
+    font-size: 35px;
+	}
+}
+
+@media only screen and (max-width: 300px){
+	
+	div.aviso, h1.aviso-pagina-peq{
+		display: inline;
+	}
+
+	div.aviso{
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		position: fixed;
+		z-index: 5;
+
+		/*Flex*/
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+
+		justify-content: center;
+		align-items    : center;
+	}
+
+	h1.aviso-pagina-peq{	
+		font-size  : 18px;
+		font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+		text-align: center;
+		color      : #FFF;
+	}
+}

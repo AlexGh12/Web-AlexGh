@@ -1,0 +1,180 @@
+h1.title-in-graf{
+	margin     : 0;
+	padding: 20px 50px;
+	font-size  : 30px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	color      : #333;
+	text-align: center;
+}
+
+/*----------------------------------------------*/
+
+section.marcador-porce{
+	width: 100%;
+	height: 45px;
+	margin-bottom: 15px;
+
+	/*Flex*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row no-wrap;
+}
+
+article.marca-porcen{
+	width: 10%;
+	min-height: 60px;
+	max-height: 120px; 
+	border-left: 1px solid #333;
+
+		/*Flex*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	justify-content: center;
+	align-items    : center;
+}
+
+.ultimaray{
+	border-right: 1px solid #333;
+}
+
+p.marc-porcen-p{
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	margin: 0;
+	font-size  : 15px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	color      : #333;
+	text-align: center;
+}
+
+/*-------------------------------*/
+
+section.space-barras-grafic{
+	margin-top: 15px;
+	width: 100%;
+	min-height: 100px;
+}
+
+.barragraf{
+	margin-top: 5px;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+}
+
+h3.in-barra{
+	margin: 0;
+	padding: 12px;
+	font-size  : 15px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	color      : #FFF;
+}
+
+.htmlgraf{
+	width: 95%;
+	background-color: #B52424;
+}
+
+.cssgraf{
+	width: 90%;
+	background-color: #D4B639;
+}
+
+.phpgraf{
+	width: 80%;
+	background-color: #4D9840;
+}
+
+.javascgraf{
+	width: 60%;
+	background-color: #388BC8;
+}
+
+.jquerygraf{
+	width: 70%;
+	background-color: #6C498D;
+}
+
+.mysqlgraf{
+	width: 60%;
+	background-color: #BD2F4F;
+}
+
+/*--------------------------------*/
+
+.ilusgraf{
+	width: 95%;
+	background-color: #7F460D;
+	border: 3px solid #E8933F!important;
+}
+
+.ilustra{
+	color: #E8933F!important;
+}
+
+.photograf{
+	width: 85%;
+	background-color: #263172;
+	border: 3px solid #61B3DB!important;
+}
+
+.photosh{
+	color: #61B3DB!important;
+}
+
+.indesgraf{
+	width: 85%;
+	background-color: #51024D;
+	border: 3px solid #D63074!important;
+}
+
+.indesign{
+	color: #D63074!important;
+}
+
+.firewgraf{
+	width: 90%;
+	background-color: #51510D;
+	border: 3px solid #D8D200!important;
+}
+
+.firew{
+	color: #D8D200!important;
+}
+
+.flashgraf{
+	width: 90%;
+	background-color: #630E0E;
+	border: 3px solid #E50000!important;
+}
+
+.flash{
+	color: #E50000!important;
+}
+
+/*------------------------------*/
+
+.wordgraf{
+	width: 100%;
+	background-color: #205A8E;
+}
+
+.excelgraf{
+	width: 80%;
+	background-color: #235927;
+}
+
+.powergraf{
+	width: 95%;
+	background-color: #C45822;
+}
+
+.printgraf{
+	width: 85%;
+	background-color: #C12F4F;
+}

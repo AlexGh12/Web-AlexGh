@@ -1,0 +1,101 @@
+div.bg-porta-pri-total{
+	width: 98%;	
+	min-height: 100vh;
+	margin: auto;
+	background-color: grey;
+
+	/*Flex*/
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+div.caja-port-1, div.caja-port-2{
+	width: 415px;
+	height: 415px;
+	background-color: white;
+
+		/*Flex*/
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+	flex-flow: row wrap;
+}
+
+div.caja-port-1{
+	flex-flow: row wrap;
+}
+
+div.caja-port-2{
+	flex-flow: column wrap;
+}
+
+.A1{
+	margin: 0px 5px 5px 5px !important;
+}
+
+.A2,
+.B2{
+	margin: 0px !important;
+}
+
+.B1{
+	margin: 5px 5px 5px 0px !important;
+}
+
+.C1{
+	margin: 5px 5px 0px 5px !important;
+}
+
+.C2{
+	margin: 5px 0px 0px 0px !important;
+}
+
+.D1{
+	margin: 5px 0px 5px 5px !important;
+}
+
+.D2{
+	margin: 0px 0px 0px 5px !important;
+}
+
+section.caja-port-1, 
+section.caja-port-2, 
+section.caja-port-3, 
+section.caja-port-4{
+	margin: 5px;
+	border: solid 1px black;
+}
+
+section.caja-port-1{
+	width: 405px;
+	height: 405px;
+	background-color: red;
+}
+
+section.caja-port-2{
+	width: 405px;
+	height: 200px;
+	background-color: green;
+}
+
+section.caja-port-3{
+	width: 200px;
+	height: 405px;
+	background-color: blue;
+}
+
+section.caja-port-4{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+}

@@ -1,0 +1,194 @@
+*{
+	border : 0px;
+	margin : 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h1.aviso-pagina-peq, .aviso{
+	display: none;
+}
+
+div#total-menu-padre{
+	width    : 80%;
+	max-width: 1000px;
+	margin   : auto;
+}
+
+/*-------------------------------------*/
+
+header#center-menu{
+	width           : 100%;
+	height          : 60px;
+}
+
+/*-------------------------------------*/
+
+a.logo{
+	font-size: 35px!important;
+	width : 25%;
+	height: 60px;
+
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+a.logo:hover{
+	color: #222!important;
+	background-color   : rgba(81,81,81,.80);
+}
+
+/*---------------- menu ----------------*/
+
+nav#menu-principal{
+	width          : 100%;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row no-wrap;
+	
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav#menu-principal a#items{
+	width      : 500px;
+	line-height:60px;
+	background-color: rgba(0,0,0,.5);
+	
+	text-align        : center;
+	text-decoration   : none;
+	color             : #FFFFFF;
+	font-size         : 20px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+nav#menu-principal a#items:hover{
+	color           : #222222;
+	background-color: rgba(255,255,255,.5); rgba(81,81,81,.80); 
+	cursor          : pointer;
+}
+
+/*------------------ Mini menu --------------------*/
+
+div.caja-menu-mini{
+	display: none;
+}
+
+/*------------------ Responsive --------------------*/
+
+@media only screen and (max-width: 1000px){
+
+	div#total-menu-padre{
+	width    : 100%;
+	}
+}
+
+/*------------- Mini menu Responsive -------------*/
+
+@media only screen and (max-width: 800px){
+
+	div.caja-menu-mini{
+		display: block;
+		width: 100%;
+		height: 40px;
+		padding: 9px;
+		background-color: rgba(0,0,0,.5);
+		border-bottom: 0.1em solid #FFF;
+	}
+
+	div.caja-menu-mini a.menu-mini{
+		text-align        : center;
+		text-decoration   : none;
+		color             : #FFFFFF;
+		font-size         : 20px;
+		font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	}
+
+	div#total-menu-padre{
+		width: 35%;
+		margin: 0;
+		height: 100%;
+		position: absolute;
+	}
+
+	nav#menu-principal{
+		display: none;
+		width: 100%;
+		position: relative;
+
+		/*Flexbox*/
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+
+		flex-flow: row wrap;
+		align-content:flex-start;
+	}
+}
+
+@media only screen and (max-width: 500px){
+
+	div#total-menu-padre{
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 400px){
+
+	div#total-menu-padre{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 340px){
+
+	div#total-menu-padre{
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 280px){
+
+	div#total-menu-padre{
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 220px){
+
+	div.aviso, h1.aviso-pagina-peq{
+		display: inline;
+	}
+
+	div.aviso{
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		position: fixed;
+		z-index: 5;
+
+		/*Flex*/
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+
+		justify-content: center;
+		align-items    : center;
+	}
+
+	h1.aviso-pagina-peq{	
+		font-size  : 18px;
+		font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+		text-align: center;
+		color      : #FFF;
+	}
+}

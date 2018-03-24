@@ -1,0 +1,145 @@
+canvas{
+	display       :block;
+	vertical-align:bottom;
+}
+
+div#particles-js{
+	width   : 100%;
+	height  : 50vh;
+	position: absolute;
+	background-color: #222;
+	z-index : -1;
+}
+
+/*---------------------------*/
+
+div.bg-porta-web-total{
+	width: 100%;
+	height: 50vh;
+}
+
+section.bg-porta-web-center{
+	width: 80%;
+	max-width: 1000px;
+	height: 100%;
+	margin: auto;
+
+	/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row no-wrap;
+	justify-content: center;
+	align-items    : center;
+}
+
+.bg-sare, .bg-lodicer, .bg-cuadrante, .bg-pisilo{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 125% auto;
+}
+
+.bg-sare{
+	background-image: url(../img/bg-link-gr-sar.jpg);
+}
+
+.bg-lodicer{
+	background-image: url(../img/bg-link-lodicer.jpg);
+}
+
+.bg-cuadrante{
+	background-color: #000;
+}
+
+.obscurecedor{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.15);
+}
+
+article.box-cont-port-web{
+	width: 50%;
+	height: 100%;
+
+		/*FLEX*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items    : center;
+	z-index         : 0;
+}
+
+article.link-web{
+	
+}
+
+article.img-web{
+	
+	justify-content: flex-end;
+}
+
+h3.title-name-website, div.boton-link-siteweb, p.descripcion-links-siteweb{
+	text-align: center;
+	text-decoration: none;
+	line-height : 30px;  /*Interlineado*/
+	font-size   : 35px;
+	font-family: 'Quicksand', 'Source Sans Pro', sans-serif;
+	color       : #FFF;
+}
+
+div.boton-link-siteweb{
+	font-size   : 20px!important;
+	padding: 5px 15px;
+
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	
+	/*traslacion*/
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+div.boton-link-siteweb:hover{
+	color: #68FF96;
+	font-size   : 20px!important;
+	padding: 5px 15px;
+	
+	background-color: rgba(51,51,51,.3);
+	border: 1px solid #68FF96;
+	border-radius: 4px;
+}
+
+div.img-pc-and-pagina{
+	width: 100%;
+	height: 100%;
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sare-img{
+	background-image: url(../img/ico-vista-previa1.png);
+}
+
+.code-img{
+	background-image: url(../img/ico-vista-previa2.png);
+}
+
+.lodi-img{
+	background-image: url(../img/ico-vista-previa3.png);
+}
+
+.cuadran-img{
+	background-image: url(../img/ico-vista-previa4.png);
+}
+
+p.descripcion-links-siteweb{
+	font-size   : 12px!important;
+}
+
+ico-vista-previa1.png

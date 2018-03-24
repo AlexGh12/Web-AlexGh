@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'iconos-grandes';
+	src:url('../fonts/iconos-grandes.eot?lz2jku');
+	src:url('../fonts/iconos-grandes.eot?lz2jku#iefix') format('embedded-opentype'),
+		url('../fonts/iconos-grandes.ttf?lz2jku') format('truetype'),
+		url('../fonts/iconos-grandes.woff?lz2jku') format('woff'),
+		url('../fonts/iconos-grandes.svg?lz2jku#iconos-grandes') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="big-icon-"], [class*=" big-icon-"] {
+	font-family: 'iconos-grandes';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.big-icon-ico_Curriculum1:before {
+	content: "\e800";
+}
+.big-icon-ico_Curriculum2:before {
+	content: "\e801";
+}
+.big-icon-ico_Curriculum3:before {
+	content: "\e802";
+}
+.big-icon-ico_Curriculum4:before {
+	content: "\e803";
+}
+.big-icon-ico_Curriculum5:before {
+	content: "\e804";
+}
+.big-icon-ico_Curriculum6:before {
+	content: "\e805";
+}
+.big-icon-ico_Curriculum7:before {
+	content: "\e806";
+}
+.big-icon-ico_Curriculum8:before {
+	content: "\e807";
+}
+.big-icon-ico_Curriculum9:before {
+	content: "\e808";
+}
+.big-icon-ico_Curriculum10:before {
+	content: "\e809";
+}
+.big-icon-ico_Curriculum11:before {
+	content: "\e80a";
+}
+.big-icon-ico_Curriculum12:before {
+	content: "\e80b";
+}
+.big-icon-ico_Curriculum13:before {
+	content: "\e80c";
+}
+.big-icon-ico_LogoGhBig:before {
+	content: "\e80d";
+}
+.big-icon-ico_LogoGhmini:before {
+	content: "\e80e";
+}
+.big-icon-ico_Portafolio1:before {
+	content: "\e80f";
+}
+.big-icon-ico_Portafolio2:before {
+	content: "\e810";
+}
+.big-icon-ico_Portafolio3:before {
+	content: "\e811";
+}
+.big-icon-ico_Servicios1:before {
+	content: "\e812";
+}
+.big-icon-ico_Servicios2:before {
+	content: "\e813";
+}
+.big-icon-ico_Servicios3:before {
+	content: "\e814";
+}
+.big-icon-ico_Servicios4:before {
+	content: "\e815";
+}
+.big-icon-ico_Servicios5:before {
+	content: "\e816";
+}
+.big-icon-ico_Servicios6:before {
+	content: "\e817";
+}
+.big-icon-ico_Servicios7:before {
+	content: "\e818";
+}
+.big-icon-ico_Servicios8:before {
+	content: "\e819";
+}
+.big-icon-ico_Servicios9:before {
+	content: "\e81a";
+}
+.big-icon-ico_Servicios10:before {
+	content: "\e81b";
+}
+.big-icon-ico_Servicios11:before {
+	content: "\e81c";
+}
+.big-icon-ico_Servicios12:before {
+	content: "\e81d";
+}
+.big-icon-ico_Servicios13:before {
+	content: "\e81e";
+}
+.big-icon-ico_Servicios14:before {
+	content: "\e81f";
+}
+.big-icon-ico_Servicios15:before {
+	content: "\e820";
+}
+
